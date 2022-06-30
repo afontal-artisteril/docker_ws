@@ -11,9 +11,11 @@ Commands:
     - Remove ALL the running containers: sudo docker rm -f $(docker ps -qa)
     - Remove ALL the existing images: sudo docker rmi -f $(docker images -aq)
     
-  Windomws:
+  Windows:
   
     - Initialize docker image: docker run --net=host -e DISPLAY=<ip>:0.0 --name <container_name> --privileged -it <image_name> bash
+    
+    Important: Fixed IP and Xming (or other) installed
 
 Important:
 
