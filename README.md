@@ -15,7 +15,7 @@ Commands:
   
     - Initialize docker image: docker run --net=host -e DISPLAY=<ip>:0.0 --name <container_name> --privileged -it <image_name> bash
     
-    Important: Fixed IP and Xming (or other) installed
+    Important: Fixed IP and MobaXterm installed
 
 Important:
 
